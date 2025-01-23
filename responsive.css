@@ -1,0 +1,66 @@
+*{
+    background-color: wheat;
+    box-sizing: border-box;
+}
+
+.header h1{
+    text-align: center;
+    background-color: rgb(220, 171, 171);
+    height: 40px;
+}
+
+.list{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.list a {
+    background-color: greenyellow;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+}
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}
+
+.about {
+    background-color: orange;
+    padding: 15px;
+    float: left;
+    margin-top: 7px;
+    text-align: center;
+    width: 20%;
+}
+
+.about h2{
+    background-color: orange;
+}
+
+.about p{
+    background-color: orange;
+}
+
+.copy {
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    margin-top: 7px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 620px) {
+    .list,
+    .main,
+    .about
+    {
+        width: 100%;
+    }
+    
+}
